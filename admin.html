@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+  <title>Eection-Admin</title>
+  <link rel="stylesheet" href="index.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="modal">
+  <div class="modal-content">
+    <div id="center" style="text-align: center;">
+<form>
+  <div class="container">
+    <h1>Candidate Nomination</h1>
+    <p>Please fill in this form to Add Candidate.</p>
+    <hr>
+    <div style="text-align: center;">
+     <label for="name"><b>Name</b></label>
+    <input type="text" id="name" placeholder="Enter Candidate Name.."required>
+     </div>
+     <div style="text-align: center;">
+    <label for="address"><b>Aadhar Number</b></label>
+    <input type="text"  id="aadharNumber" placeholder="Enter Candidate Aadhar Number."required>
+    </div>
+    <div style="text-align: center;">
+    <label for="about"><b>Symbol</b></label>
+    <input type="text" id="symbol" placeholder="Party Symbol.." required>
+    <div style="text-align: center;">
+    <label for="about"><b>Standing From</b></label>
+    <input type="text" id="standingFrom" placeholder="Nominating from.." required>
+    <hr>
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    </div>
+   <div style="text-align: center;"> 
+    <button id="addCandidate" class="registerbtn">Register</button>
+     </div>
+  </div>
+</form>
+</div>
+  <input id="candidateId" type="text" placeholder="Enter Candidate Id.." />
+  <button onclick="countVotes()" style="text-align: center;">Count Votes</button>
+  <div style="text-align: center;" id="result"></div>
+  
+<script src="web3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src ="admin.js"></script>
+</body>
+<div id="log" style="text-align: center;"></div>
+<footer style="text-align:right;">
+  <h6>&copy Salman Dabbakuti</h6>
+</footer>
+</html>

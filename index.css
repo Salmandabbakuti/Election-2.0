@@ -1,0 +1,59 @@
+body {
+	background: #f6f5f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	margin: -20px 0 50px;
+}
+input {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 100%;
+}
+#candidateListing {
+    background-color: rgb(4, 166, 255);
+    border-radius: 10px;
+}
+button {
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(0, 94, 145);
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    background-color: rgb(0, 81, 125);
+}
+#left{
+       width: 415px;
+       height: 700px;
+       margin: 0 auto;
+       float: left;
+       border: 2px white solid;
+       background-color: rgb(245, 239, 239);
+        }
+ #right{
+       width: 415px;
+       height: 700px;
+       margin: 0 auto;
+       float: right;
+       border: 2px white solid;
+       background-color: rgb(245, 239, 239);
+        }
+        .message-box {
+    background-color: rgb(70, 190, 255);
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 5px;
+}

@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+  <title>Eection</title>
+  <link rel="stylesheet" href="index.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <center><h1>Vote Your Candidate</h1></center>
+  <a href="admin.html">Admin Panel</a>
+<div  id= "left" style="text-align: center;">
+    <button id="initCandidates" onclick="initCandidates()">Candidates</button>
+    <div id="candidateListing" style="text-align: center;"></div>
+</div>
+<div id="right" style="text-align: center;">
+  <div id ="voteArea">
+    <label><b>Your Aadhar Number:</b></label>
+    </br>
+    <input type="text" id="voterAadharNumber" class="example" placeholder="Enter Your AadharNumber..." name="search1">
+    </br>
+    <label><b>Voting for:</b></label>
+    </br>
+    <input type="text" id="votingFor" class="example" placeholder="CandidateId" name="search2">
+    </br>
+    <button id="vote" style="width:80px">Vote</button>
+  </div>
+</div>
+<script src="web3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src ="index.js"></script>
+</body>
+<div id="log" style="text-align: center;"></div>
+<footer style="text-align:right;">
+  <h6>&copy Salman Dabbakuti</h6>
+</footer>
+</html>
